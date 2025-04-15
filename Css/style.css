@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f0f0;
+    transition-duration:  background 0.4s ease;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.galeria img {
+    width: 300px;
+    margin: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+.ampliada {
+    transform: scale(2);
+    z-index: 10;
+    position: relative;
+    transition: transform 0.4s ease;
+}
